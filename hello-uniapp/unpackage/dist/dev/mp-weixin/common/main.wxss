@@ -1,0 +1,18 @@
+
+page,page{
+	width: 100%;
+	height: 100%;
+}
+.center{
+	text-align: center;
+}
+.colorH{
+	color: #CC0066;
+}
+.paci{
+	padding: 0 16rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+/*每个页面公共css */
+

@@ -1,0 +1,124 @@
+.much_container{
+		margin-bottom: 70rpx;
+		padding: 0 20rpx;
+	}
+	.title{
+		font-size: 36rpx;
+		font-weight: 800;
+		color: #000;
+	}
+	.text-area>.title {
+		margin: 5rpx 0 70rpx 0;
+		/* display: flex; */
+		/* justify-content: center; */
+	}
+	#moreMuch{
+		margin-bottom: 27rpx;
+	}
+	.enter_much_box{
+		width: 256rpx;
+		border-bottom: 1px solid #EBEBEB;
+		margin-bottom: 40rpx;
+	}
+	.enter_much_box .enter_much{
+		width: 256rpx;
+		height: 76rpx;
+		font-size: 39rpx;
+		padding-left: 20rpx;
+	}
+	.much_container{
+		display: flex;
+		justify-content:space-between;
+		/* padding: 0 60rpx; */
+	}
+	.much_container view{
+		width: 20%;
+		height: 80rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.paymentSelct{
+		display: flex;
+		flex-direction:column;
+		
+	}
+	.paymentSelct>view{
+		height: 100rpx;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		margin-bottom: 40rpx;
+		border-radius: 66rpx;
+		width: 95%;
+	}
+	.paymentSelct>view>view:nth-of-type(1){
+		width: 20%;
+		text-align: center;
+	}
+	.paymentSelct>view>view:nth-of-type(2){
+		width: 70%;
+	}
+	.paymentSelct>view>view:nth-of-type(3){
+		width: 10%;
+		text-align: center;
+	}
+	.preferential{
+		font-size: 20rpx;
+		color: #fff;
+		background: #CC0066;
+		position: relative;
+		top:-30rpx;
+		padding: 0 5rpx;
+		
+	}
+	.checkMore{
+		margin: 0rpx 0 50rpx 0;
+		color: #AAAAAA;
+	}
+	.pay_much{
+		/* position: fixed; */
+		/* bottom: 0; */
+		display: flex;
+		height: 232rpx;
+		background: #F6EDF3;
+		width: 100%;
+		overflow: hidden;
+		justify-content: space-between;
+		align-items: flex-end;
+		padding-bottom: 44rpx;
+		box-sizing: border-box;
+	}
+	.pay_much>view{
+		display: flex;
+		align-items: center;
+	}
+	#payMuch{
+		font-size: 35RPX;
+		margin-right: 28rpx;
+		font-weight: 800;
+	}
+	#payBtn{
+		height: 70rpx;
+		background: #ccc;
+		padding: 0rpx 40rpx;
+		color: #fff;
+		background: #DE5C8A;
+		border-radius: 30rpx;
+		margin-bottom: -16rpx;
+	}
+	/* 其中A代表灰色,L代表高亮 */
+	.bdL{
+		border: 2px solid #DE5C8A;
+	}
+	.bdA{
+		border: 2px solid #ccc;
+	}
+	.bgL{
+		background: #CA3E7C;
+		color: #fff;
+	}
+	.bgA{
+		background: #FFF0F5;
+		color: #000000;
+	}

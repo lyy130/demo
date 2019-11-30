@@ -1,0 +1,5 @@
+this.$set(this.isFlag,0,true)
+this.$set(this.isFlag,1,false)
+this.$set(this.isFlag,2,true)
+this.$set(this.isFlag,3,true)
+console.log(this.isFlag)
